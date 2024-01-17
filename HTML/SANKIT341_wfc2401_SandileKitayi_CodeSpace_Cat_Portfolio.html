@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cat Portfolio Website</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Welcome to CodeSpace Cat Portiflio.</h1>
+    <img src="images/cat-codespace.png">
+  </header>
+<!--Add a list section use <ul> tag together with the <li> tag to create unordered lists.-->
+  <section>
+    <ul>
+      <li><a href="#About Me">About Me</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#Contact Me">Contact</a></li>
+  </ul>
+  </section>
+<!--Add section about the cat, use head2 tag and paragraph tags-->
+  <section id="About Me">
+    <h2>All About CodeSpace Cat's.</h2>
+    <p>Hello! I'm CodeSpace Cat. I'm purr-ssionate abpot web development and design. I've been pawing at the web industry for just one catnap(that's less than a day in human terms), and I adore crafiting pawsitively intiative, whisker-twitching and fur-tastic web experience. Whoa that's a lot of puns.</p>
+  </section>
+<!--Add section about cat skills, use <ul> tag together with the <li> tag to create unordered lists.-->
+  <section id="Skills">
+    <h2>My Skills.</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>IU/UX Design</li>
+      <li>BackEnd Development</li>
+      <li>Data Base Management</li>
+      <li>SEO Optimazation</li>
+      <li>Lying In The Sun</li>
+    </ul>
+  </section>
+<!--Add a portfolio section use the table tag, table row, table head and table data-->
+  <section id="Portfolio">
+    <h2>Catfoli.</h2>
+    <table>
+      <tr>
+        <th>Project Name</th>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Thumbnail</th>
+      </tr>
+      <tr>
+        <td>Perfect Landing Page</td>
+        <td>January 2024</td>
+        <td>A delightful landing page fpr a luxury cat condo</td>
+        <td><img src="images/1.png"></td>
+      </tr>
+      <tr>
+        <td>Kitty Commerce</td>
+        <td>February 2024</td>
+        <td>An online store selling the fanciest catnip toys</td>
+        <td><img src="images/2.png"></td>
+      </tr>
+      <tr>
+          <td>CatChat Social</td>
+          <td>June 2024</td>
+          <td>A social media site for cats to meow and hiss!</td>
+          <td><img src="images/3.png"></td>
+      </tr>
+    </table>
+  </section>
+<!--Add a Contact section use form element, label tag, input tag, and textarea tag-->
+  <section id="Contact Me">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+<!--Add a footer-->
+  <footer>
+    <p>@2024 CodeSpace Cat All rights reserved</p>
+  </footer>
+</body>
+</html>
